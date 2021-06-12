@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتب محاسبه</title>
+    <link rel="stylesheet" href="/2.css">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.min.css" />
+</head>
+<body onload="myFunction2()"  onresize="myFunction2()">
+  
+    <div class="container">
+        <div>
+            <div class="main">
+              <div class="social">
+                <a href="">
+                  <img class="img" src="/103.png" alt="" />
+                </a>
+                <a href="">
+                  <img class="img" src="/104.jpg" alt="" />
+                </a>
+                <a href="">
+                  <img class="img" src="/110.png" alt="" />
+                </a>
+                <a href="">
+                  <img class="img" src="/206.png" alt="" />
+                </a>
+              </div>
+      
+              <div class="call">
+                <div class="tel">
+                  <i style="font-size: 24px" class="fa">&#xf095;</i>
+                  01010460466
+                </div>
+                <br />
+                <div class="email">
+                  <i style="font-size: 24px" class="fa">&#xf0e0;</i>
+                  Elkady551@gmail.com
+                </div>
+              </div>
+            </div>
+      <br>
+            <hr />
+    
+            <div class="name">
+                <h1>مكتب محاسب قانونى</h1>
+              </div>
+              <div class="menu" id="www" style="display: none;">
+              
+                <i class="fas fa-bars"  id="mmm"  onclick="myFunction()">
+            
+                </i>
+              </div>
+              
+              <div class="menu" id="month" style="display: none;">
+              
+               
+                <a href="">الرئيسيه</a>
+                <a href="">نبذه عننا</a>
+                <a href="">خدمات المحاسبه</a>
+                <a href="">الضرائب</a>
+                <a href="">المراجعه</a>
+                <a href="">خدمات قانونيه</a>
+                <a href="">اتصل بنا</a>
+              </div>
+              <div class="menu" id="year" style="display: none;">
+               
+                <a href="">الرئيسيه |</a>
+                <a href="">نبذه عننا |</a>
+                <a href="">خدمات المحاسبه |</a>
+                <a href="">الضرائب |</a>
+                <a href="">المراجعه |</a>
+                <a href="">خدمات قانونيه |</a>
+                <a href="">اتصل بنا |</a>
+              </div>
+      
+             
+            </div>
+          </div>
+    </div>
+
+
+    <div class="link">
+<div class="section">
+  <h3>
+    خدمات المحاسبه
+  </h3>
+  
+  
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, numquam nostrum, libero quod asperiores sint ullam a autem, delectus odit voluptates quis aut beatae omnis pariatur quasi quos aspernatur doloribus.</p>
+ <a class="a1" href="">  ......اقرا المزيد </a>
+</div>
+<div class="section">
+  <h3>
+    الضرائب
+  </h3>
+  
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, numquam nostrum, libero quod asperiores sint ullam a autem, delectus odit voluptates quis aut beatae omnis pariatur quasi quos aspernatur doloribus.</p>
+ <a class="a1" href="">  ......اقرا المزيد </a>
+</div>
+<div class="section">
+
+  <h3>
+    المراجعه
+  </h3>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, numquam nostrum, libero quod asperiores sint ullam a autem, delectus odit voluptates quis aut beatae omnis pariatur quasi quos aspernatur doloribus.</p>
+ <a class="a1" href="">  ......اقرا المزيد </a>
+</div>
+<div class="section">
+  <h3>
+    خدمات قانونيه
+  </h3>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, numquam nostrum, libero quod asperiores sint ullam a autem, delectus odit voluptates quis aut beatae omnis pariatur quasi quos aspernatur doloribus.</p>
+  <a class="a1" href="">  ......اقرا المزيد </a>
+</div>
+
+
+    </div>
+    
+
+      <script>
+        function myFunction() {
+          var m = document.getElementById("month");
+          y = document.getElementById("year");
+          if (m.style.display === "none") {
+            m.style.display = "flex";
+            y.style.display = "none";
+          } else {
+            m.style.display = "none";
+          }
+        }
+        function myFunction2() {
+          var m = document.getElementById("month");
+             g=document.getElementById("year") ;
+             w=document.getElementById("www")
+        
+          if ( screen.availWidth <="985") {
+            w.style.display = "flex";
+            g.style.display="none";
+           
+          
+          } else {
+            w.style.display = "none";
+            g.style.display="block"
+            // alert(screen.availWidth)
+          }
+        }
+      </script>
+</body> 
+</html>
